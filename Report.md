@@ -36,7 +36,7 @@ I trained the network using  `Deep Deterministic Policy Gradients(DDGP)`  algori
 
 #### Model architecture
 
-In my implementation the Actor network contains two hidden layers of 256 devices with ReLU activation applied to both layers and a tanh on the end.
+In my implementation the Actor network contains two hidden layers of 256 devices with ReLU activation applied to both layers and a tanh on the end.  
 
 In addition, a batch normalization is applied to the input and between the hidden layers.
 
@@ -58,6 +58,19 @@ The algorithm works by having the agent act in the environment and collecting re
 
 
 ### Plots of rewards
+```
+Episode 10	Average Score: 1.20
+Episode 20	Average Score: 7.43
+Episode 30	Average Score: 17.34
+Episode 40	Average Score: 22.50
+Episode 50	Average Score: 25.53
+Episode 60	Average Score: 27.56
+Episode 70	Average Score: 29.02
+Episode 80	Average Score: 30.08
+Environment solved in 70 episodes!	Average Score: 30.08
+```
+![enter image description here](results.png)
+
 
 ### Ideas for improvements
 
